@@ -1,0 +1,134 @@
+/* 
+
+------ 01 TYPOGRAPHY SYSTEM
+
+
+-FONT sizes (px):
+10/12/14/16/18/20/24/30/36/44/52/62/74/86/98
+
+-Font weight:
+Default: 400
+medium: 500
+semi-boold: 600
+bold: 700
+
+-Line heights:
+Default: 1
+small: 1.05
+medium: 1.2
+paragraph: 1.6
+
+-Letter spaces:
+
+-Spacing System (px):
+2/4/8/12/16/24/32/48/64/80/96/128
+
+
+------ 02 COLORS
+
+
+-Primary: #0f1033
+-Tints: 
+#ecf1f2
+#ff3f67
+#ff3f65a2
+-Shades: 
+-Accents:
+-Greys:
+#6f6f6f
+#6f6f6f27
+
+
+------ 03 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+0 3.2rem 6.4rem rgba(0, 0, 0, 0.2);
+
+------ 04 BORDER-RADIUS
+dfault: 20px
+
+------ 05 WHITESPACES
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #0f1033;
+  overflow-x: hidden;
+}
+
+.primary-heading {
+  font-size: 6.2rem;
+  font-weight: 400;
+  line-height: 1.05;
+  margin: -8rem 0 3.2rem 0;
+}
+
+.secondary-heading {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 1.6rem;
+}
+
+.subheading {
+  display: inline-block;
+  color: #ff3f67;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+/* Helpers classes */
+
+.container {
+  max-width: 125rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+/* Back To Top */
