@@ -1,0 +1,19 @@
+.cart {
+  position: relative;
+}
+
+.amount {
+  position: absolute;
+  top: -9px;
+  color: #fff;
+  right: -11px;
+  background-color: #12273D;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    color: #12273D !important;
+  }
+}

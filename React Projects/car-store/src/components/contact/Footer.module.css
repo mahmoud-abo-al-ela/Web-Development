@@ -1,0 +1,80 @@
+.footer {
+  background-color: #fff;
+  padding: 2.8rem 0;
+  font-size: 1.4rem;
+}
+
+.footer h2,
+h3 {
+  color: #741906;
+  font-size: 2.2rem;
+}
+
+.col_1 h2 {
+  font-size: 2.6rem;
+}
+
+.col_1 span {
+  font-weight: bold;
+}
+
+.col_2 {
+  text-align: center;
+}
+
+.sub input {
+  padding: 1.5rem 2.8rem;
+  border: 1px solid #741906;
+}
+
+.sub button {
+  color: #fff;
+  background-color: #741906;
+  padding: 1.4rem 1.8rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+.sub button:hover {
+  background-color: #741806ad;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+hr {
+  background-color: #741906;
+  width: 90%;
+}
+
+.copy {
+  padding-top: 1.2rem;
+  text-align: center;
+  color: #12273D;
+}
+
+.copy span {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .col_1 {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .col_1 p {
+    width: 60%;
+    text-align: center;
+  }
+
+  .sub {
+    flex-direction: column;
+  }
+
+  .sub input {
+    margin-bottom: 1.2rem;
+  }
+}

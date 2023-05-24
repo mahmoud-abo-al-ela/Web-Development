@@ -1,0 +1,65 @@
+.gallery {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.info {
+  position: relative;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.textContainer {
+  position: absolute;
+  font-size: 2.4rem;
+  width: 100%;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+}
+
+.textContainer h3 {
+  font-size: 2.8rem;
+  color: #fff;
+}
+
+.textContainer p {
+  font-size: 1.6rem;
+}
+
+.textContainer button {
+  color: #fff;
+  background-color: transparent;
+  padding: 0.4rem 1.8rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.textContainer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.textContainer button:hover {
+  background-color: #999;
+}
+
+.col_1,
+.col_2,
+.col_3 {
+  padding: 0 !important;
+}

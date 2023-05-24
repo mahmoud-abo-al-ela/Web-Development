@@ -1,0 +1,56 @@
+.services {
+  margin-bottom: 3.8rem;
+  padding: 3.4rem 0;
+  background-image: url(../../imgs/services/CTA\ BG.png);
+  background-color: #DFDFDF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.row_1 {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 3.8rem;
+}
+
+.row_1 h2 {
+  font-size: 12rem;
+  color: #EBEBEB;
+  margin-bottom: -4.8rem;
+}
+
+.row_1 h3 {
+  font-size: 4.8rem;
+  color: #12273D;
+  font-weight: 700;
+}
+
+.row_2 {
+  margin-bottom: 2.4rem;
+  text-align: center;
+  align-items: center;
+  color: #12273D;
+}
+
+.row_2 h4 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin: 2.4rem 0;
+}
+
+.row_2 p {
+  font-size: 1.8rem;
+  width: 86%;
+  margin: 2.4rem auto;
+}
+
+@media (max-width: 768px) {
+  .services {
+    margin-bottom: 0rem;
+  }
+
+  .services p {
+    margin-bottom: 6rem;
+  }
+}

@@ -1,0 +1,54 @@
+.about {
+  margin-top: 3.6rem;
+}
+
+.about h2 {
+  font-size: 12rem;
+  color: #EBEBEB;
+  margin: 0 0 -3.8rem -2.4rem;
+}
+
+.about h3 {
+  font-size: 4.8rem;
+  color: #741906;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+.about p {
+  font-size: 1.8rem;
+  margin: 0 2.8rem 1.8rem 0;
+}
+
+.column_2 {
+  background-image: url(../../imgs/pngegg1.png);
+  background-repeat: no-repeat;
+  background-position: revert;
+  background-size: auto;
+  margin-top: 3.2rem;
+}
+
+.column_2 img {
+  display: block;
+  padding-left: 4.8rem;
+}
+
+@media (max-width: 768px) {
+  .about {
+    align-items: center;
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 10rem;
+  }
+
+  .about p {
+    margin-right: 2.4rem;
+    text-align: left;
+  }
+
+  .column_2 img {
+    width: auto;
+  }
+}

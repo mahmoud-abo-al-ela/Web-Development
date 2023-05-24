@@ -1,0 +1,173 @@
+.cartDropdown {
+  position: fixed;
+  top: 7rem;
+  right: 0rem;
+  width: 30%;
+  height: 80%;
+  background-color: #12273dde;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  overflow-y: auto;
+  cursor: default;
+  animation: slide-down 0.5s ease-out;
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-10%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.cartItems {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cartItem {
+  background-color: #fff;
+  display: flex;
+  height: 40% !important;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.8rem;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.info p:first-of-type {
+  color: #741906;
+  font-weight: bold;
+  font-size: 2.2rem;
+
+}
+
+.info p:last-of-type {
+  color: #12273D;
+  font-size: 1.4rem;
+}
+
+.cartItem img {
+  width: 50%;
+  margin-right: 1rem;
+}
+
+.empty {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.edit {
+  display: flex;
+}
+
+.edit button {
+  height: 2.4rem;
+  font-size: 1.2rem;
+  background-color: #741906;
+  width: 2.4rem;
+  color: #fff;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit button:hover {
+  opacity: .75;
+}
+
+.btn_1 {
+  border-radius: 5px 0 0 5px;
+}
+
+.btn_2 {
+  border-radius: 0 5px 5px 0;
+}
+
+.btn_3 {
+  color: #111 !important;
+  background-color: #fff !important;
+  margin-left: 1.4rem;
+}
+
+.amount {
+  color: #12273D;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 0 1rem;
+  border: 1px solid #7418065b;
+}
+
+.delete {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-color: #741906;
+  width: 50%;
+  margin: 2.4rem auto;
+  margin-bottom: 1.8rem;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #7418068c;
+}
+
+.delete>div {
+  display: flex;
+  align-items: baseline;
+  margin: .8rem 0;
+}
+
+.delete p {
+  margin-bottom: 0;
+}
+
+.btn_4 {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .cartDropdown {
+    top: 10rem;
+    width: 100%;
+  }
+
+  .delete {
+    font-size: 2.4rem;
+    width: 50%;
+  }
+
+  .cartItem {
+    height: 40%;
+  }
+
+  .info p:first-of-type {
+    font-size: 2.6rem;
+  }
+
+  .info p:last-of-type {
+    font-size: 2rem;
+  }
+
+  .edit button {
+    height: 3.3rem;
+    font-size: 1.6rem;
+    width: 3rem;
+  }
+
+  .amount {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+}
