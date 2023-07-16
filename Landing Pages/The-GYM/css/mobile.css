@@ -1,0 +1,68 @@
+/*navbar*/
+#navbar{
+    flex-direction: column;
+}
+/*section 1*/
+#first #text-1 h1{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+#about-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#about-content img{
+    width: 100%;
+    margin-top: 1rem;
+}
+/*section 4*/
+.programs .boxes{
+    display: block;
+}
+.box img{
+    margin-left: -10px;
+}
+/*section 5*/
+#trainers .trainers-boxes{
+    display: block;
+}
+/*section 6*/
+#contact{
+    height: 1000px;
+    flex-direction: column;
+}
+@media screen and (max-width: 500px){
+    #navbar{
+        position: static;
+    }
+    #navbar ul{
+        display: block;
+        text-align: center;
+    }
+    #navbar ul li{
+        padding: 1rem;
+    }
+    #contact button{
+        margin-bottom: 0px;
+    }
+    #contact .contact-us #group{
+        display: block;
+        width: 100%;
+    }
+    #contact .contact-us #group input[type="text"]{
+        margin-right: 0;
+    }
+    .adv-content h1{
+        font-size: 20px;
+        line-height: 2rem
+    }
+    #advice .adv-content p{
+        line-height: 1.2rem;
+    }
+    #about-content p{
+        line-height: 1.2rem;
+    }
+}
+
+
