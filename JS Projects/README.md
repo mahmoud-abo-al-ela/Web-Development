@@ -22,10 +22,5 @@
 | 18  |     [New Year Countdown](./Projects/18-New-Year-Countdown/)     |   [Live Demo](https://mo-new-year.netlify.app/)    |
 | 19  |          [Sortable List](./Projects/19-Sortable-List/)          | [Live Demo](https://mo-sortable-list.netlify.app/) |
 | 20  | [Speak Number Guessing Game](./Projects/20-Speak-Number-Guess/) |   [Live Demo](https://mo-speak-num.netlify.app/)   |
-| 21  |     [Speak Number Guessing Game](./Projects/21-ToDo-Board/)     |  [Live Demo](https://mo-todo-board.netlify.app/)   |
+| 21  |     [ToDo App](./Projects/21-ToDo-Board/)     |  [Live Demo](https://mo-todo-board.netlify.app/)   |
 
----
-
-[Course-Link](https://www.udemy.com/course/web-projects-with-vanilla-javascript/)<br>
-
-![Certificate](https://via.placeholder.com/468x300?text=Certificate+Here)

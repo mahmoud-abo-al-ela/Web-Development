@@ -32,10 +32,7 @@
 
 ### Animation-app [Demo](https://mo-animation-app.netlify.app/)
 
-### Products-app(S25)
-
-- [Project-code](./Projects/17-Products-app)
-- [Live Demo](https://mo-products.netlify.app/)
+### Products-app [Demo](https://mo-products.netlify.app/)
 
 ### todo-app-TS [Demo](https://mo-ts-todo-app.netlify.app/)
 
