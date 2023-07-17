@@ -16,7 +16,7 @@
 | 12  |             [Typing Game](./Projects/12-Type-Race/)             |    [Live Demo](https://mo-type-game.netlify.app/)    |
 | 13  |     [Speech Text Reader](./Projects/13-Speech-Text-Reader/)     |   [Live Demo](https://mo-speech-text.netlify.app/)   |
 | 14  |           [Memory Cards](./Projects/14-Memory-Cards/)           |  [Live Demo](https://mo-memory-cards.netlify.app/)   |
-| 15  |        [LyricsSearch App](./Projects/15-Lyrics-Search/)         |  [Live Demo](https://mo-lyrics-search.netlify.app/)  |
+| 15  |   [LyricsSearch App](./Projects/15-Lyrics-Search/)`API DOWN`    |  [Live Demo](https://mo-lyrics-search.netlify.app/)  |
 | 16  |              [Relaxer App](./Projects/16-Relaxer/)              |     [Live Demo](https://mo-relaxer.netlify.app/)     |
 | 17  |            [Breakout Game](./Projects/17-Breakout/)             |  [Live Demo](https://mo-breakout-game.netlify.app/)  |
 | 18  |     [New Year Countdown](./Projects/18-New-Year-Countdown/)     |    [Live Demo](https://mo-new-year.netlify.app/)     |
