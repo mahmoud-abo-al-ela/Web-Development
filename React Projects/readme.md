@@ -24,7 +24,7 @@
 
 ### Redux Cart [Demo](https://mo-redux-cart.netlify.app/)
 
-### Events App `React + Node` [Demo](https://events-l6bk.onrender.com/events/new)
+### Events App `React + Node` [Demo](https://events-l6bk.onrender.com/)
 
 ### Meetups app [Demo](https://nextjs-jxsletvhz-mahmoudali2233.vercel.app/)
 
