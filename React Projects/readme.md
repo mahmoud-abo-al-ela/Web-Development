@@ -12,8 +12,6 @@
 
 ### Login-app [Demo](https://mo-login.netlify.app/)
 
-### Order-food App [Demo](https://mo-order-food.netlify.app/)
-
 ### Search [Demo](https://mo-search-app.netlify.app/)
 
 ### movies app [Demo](https://mo-movies-app.netlify.app/)
