@@ -8,17 +8,17 @@
 
 ### goals app [Demo](https://mo-goals-app.netlify.app/)
 
-### User app [Demo](https://64a950059090837382ade0d2--stellular-paprenjak-6e5723.netlify.app/)
+### User app [Demo](https://mo-user.netlify.app/)
 
-### Login-app [Demo](https://64a95132af1815736a7c370d--frabjous-unicorn-cd7529.netlify.app/)
+### Login-app [Demo](https://mo-login.netlify.app/)
 
 ### Order-food App [Demo](https://mo-order-food.netlify.app/)
 
-### Search [Demo](https://64a9720c6a675c07ddc4caf3--sparkly-torrone-d7a811.netlify.app/)
+### Search [Demo](https://mo-search-app.netlify.app/)
 
 ### movies app [Demo](https://mo-movies-app.netlify.app/)
 
-### Form-app [Demo](https://64a966b5ce8f657ec5a280fb--dashing-froyo-dc69f8.netlify.app/)
+### Form-app [Demo](https://mo-form-app.netlify.app/)
 
 ### Order-food App [Demo](https://mo-food-order.netlify.app/)
 
